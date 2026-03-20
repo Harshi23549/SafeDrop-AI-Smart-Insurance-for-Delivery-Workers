@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="dashboard">
+  <h2>Welcome, Rider</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>📍 Area</h3>
+      <p>Delhi - High Risk</p>
+    </div>
+
+    <div class="card">
+      <h3>💰 Premium</h3>
+      <p id="premium">₹--</p>
+    </div>
+
+    <div class="card">
+      <h3>📊 Status</h3>
+      <p class="active">Active</p>
+    </div>
+  </div>
+
+  <div class="actions">
+    <button onclick="triggerRain()">🌧️ Rain</button>
+    <button onclick="triggerPollution()">🌫️ Pollution</button>
+  </div>
+
+  <p id="result"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
